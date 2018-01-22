@@ -116,7 +116,7 @@ Not written in perl
 
 https://github.com/pjf/talks/tree/master/taskwarrior
 
-# Love thy future self: making your systems ops-friendly - Matt Palmer
+## Love thy future self: making your systems ops-friendly - Matt Palmer
 
 Metrics are key
 
@@ -181,3 +181,50 @@ Make it Visibility
 Instrument it
 Logerrors all the time
 Allow runtime collection of debug logs
+
+## Using "old skool" Free tools to easily publish API documentation - Alec Clews
+
+https://github.com/alecthegeek/doc-api-old-skool
+
+People want to use yoiur API
+
+Make it useful, easy with great docs
+Keep doco up to date
+
+Users may not have English as a firsh language
+
+Users are not familiar with your api and may not have the same technical skills as you
+
+Use pictures and show real full code examples
+
+Dont use complex english and dont make your doco busy
+
+Treat your documentation as code
+
+Pandoc can generate pdfs from markdown files
+
+Plantuml to generate a digram, you can then reference this diagram in your markdown
+Uses sed to extract lines from the code, and then inset this into his doc
+
+## Lightening talks
+### To alt or not to alt
+Alt attribute allows you put a text desciption of the image
+For instance blind people using a screen reader will only hear "Image" where you have your pic. 
+Need to decide if the picture is informative or decorative as to whether to include it or not
+
+### lua
+Better then javascript
+http://fengari.io
+Can be used in the browser
+Can do everything Javascript can do
+Learn lua in 15mins - http://tylerneylon.com/a/learn-lua/
+
+### How not to docker
+Do not run privelidged - Can own machine
+Dont expose docker socket - Can mount host filesystem
+Dont use host network mode - container can have complete control over host network
+Know where your code is From - dont use random images
+Dont forget your host - Ensure host has a secure kernel
+
+
+
