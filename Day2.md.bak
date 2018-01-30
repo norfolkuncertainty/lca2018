@@ -1,13 +1,13 @@
 # Day 2
 
 ## Keynote
-Matthew Todd - Opensource drug discovery
+Matthew Todd - Opensoure drug discovery
 
-Matthew talked about openly researching drugs to find a cure for malaria
+Matthew talked about openly reasearching drugs to find a cure for malaria
 
-Coming up with a name for this approach was difficult, "free drugs" might have the wrong connotations
+Coming up with a name for this approach was difficult, "free drugs" might have the wrong connitations
 
-* Open innovation - problem is only public domain
+* Open innovation - problem is only publicdomain
 * Open source - solution is also public domain
 
 gsk releasing their lists of molecules that kill malaria
@@ -21,22 +21,22 @@ electronic lab notebook is helping them get their research online so its availab
 http://github.com/opensourcemalaria
 
 One very promising molecule
-Suspecting that the molecule restricts the ion pump of the malaria which it uses to regulate its environments in the red blood cell
+Suspecting that the moucule restricts the ion pump of the malaria which it uses to regulate its environments in the red blood cell
 
 They launched a crowd sourcing competition to predict which molecule is going to work, unfortunately none were predictive.
 
-Big pharama cant do open source as it doesn't fit their business model, but the scientists want to do it.
+Big pharama cant do open source as it doesnt fit their business model, but the scientists want to do it.
 
 The toxoplasmosis drug Daraprim had a massive price increase overnight and made the news.
 A group from a school managed to create a small amount of the drug in their lab
 
 This proved that it was not hard to make the drug, and that the price hike was just in the name of money making
 
-Matthew mentioned that it was a "Primo" version of the molecule, they had done an excellent job.
+Matthew mentioned that it was a "Primo" version of the moecule, they had done an excellent job.
 
-For all of the research, they really need the information in a machine digestible format
+For all of the research, they really need the information in a machine digstable format
 
-trust and transparency - open kitchen, open symphony
+trust and transparancy - open kitchen, open symphony
 
 Next steps
 
@@ -46,9 +46,9 @@ It will be the first ever open molecule if they get to clinical trials
 
 SCINDR - Tindr for scientists.  Automatically find possible collaborations based on who's working on same/similar molecules
 
-Mycetoma, fungus that grows in the same place as tattoo ink goes (Probably don't do an image search unless you are feeling brave)
+Mycetoma, fungus that grows in the same place as tatoo ink goes (Probably dont do an image search unless you are feeling brave)
 
-They are starting a new opensource campaign for this
+They are starting a new opensource compaign for this
 
 Huge money goes into opensource, but nothing similar is happening in pharma
 
@@ -73,7 +73,7 @@ Reality - You still have to maintain upgrades, backups, debugging (ensure logs a
 
 Reality Legacy tooling/infrastructure
 
-Focus on a standards based implementation
+Focus on a standards based implementaton
 
 
 #### Myth 3 - Everything is automated for you already
@@ -95,10 +95,10 @@ Ensure these are included in phase 1, not left till phase 2
 
 Container planning Checklist
 - host, container, application
-- upgrade strategy
+- upgrade stretegy
 - backups
 - DR - Ensure this is tested
-- metrics, collections, monitoring
+- metics, collections, monitoring
 - centralised logging
 
 ### Designing scalable production Kubernetes clusters on AWS - Nick Young
@@ -122,13 +122,13 @@ Computer and etcd
 All configs that run Kubernetes
 
 Cattle not pets
-Controller nodes - completely replaceable
-etcd nodes - Petty Cattle, controlled replacement is possible
+Controller nodes - completely replacable
+etcd nodes - Petty Cattle, controled replacement is possible
 Can burn down to FLAG and rebuild in 30mins
 
 Manage dependencies
 Secrets stored in private s3 bucket (not external to aws)
-Image store - ECR (AWS) as don't want to rely on anything outside of AWS
+Image store - ECR (AWS) as dont want to rely on anything outside of AWS
 
 Service Meshes - What is this?
 
@@ -138,7 +138,7 @@ tl;dr: A service mesh is a dedicated infrastructure layer for making service-to-
 
 Need to manage container sprawl
 
-Hard to be able to managing logging monolith and containers
+Hard to be able to managing logging monlith and containers
 
 combination of service logging for containers and standard logging for monolith
 
@@ -148,7 +148,7 @@ Troubleshooting docker requires new tools
 
 docker top <container name>
 
-Don't trust the internet - Don't download random containers off the internet
+Dont trust the internet - Dont download random containers off the internet
 
 [Flaco website](https://www.sysdig.org/falco/)
 
@@ -156,7 +156,7 @@ Analyse container behaviour
 
 [capsule8 website](https://capsule8.com/)
 
-You need to integrate containers with your existing infrastructure
+You need to integrate containers with your exisitng infrastructure
 
 Build stack around both sides of your infra
 
@@ -167,7 +167,7 @@ Build stack around both sides of your infra
 
 using ec2 tags to set role
 
-auto signing can lead to information leakage
+auto signing can lead to information leekage
 
 Use of policy base auto signing is an option
 
@@ -177,11 +177,11 @@ There is no reference implementation from Puppet around this
 
 jwt tokens were mentioned as another option.
 
-facts should not trusted as they can be changed
+facts should not trusted as they can be chaned
 
 So could use the role fact to steal information from other roles
 
-Trusted facts are baked into the cert and are relatively unknown feature.
+Trusted facts are baked into the cert and are relitively unknown feature.
 
 Carnival r10k webhook
 
@@ -205,7 +205,7 @@ Centralised control
 
 tlog
 
-pam session initiated, goes through tlog and stream to location (journald, rsyslog)
+pam session initated, goes through tlog and stream to location (journald, rsyslog)
 
 From there it can be pushed into centralised logging for analysis
 
@@ -217,7 +217,7 @@ tlog-play allows you to play back a session
 
 Stored in json format
 
-aushape turns audit events into json for easier readability/processing
+aushape turns audit events into json for easier readibility/processing
 
 possibly integration with cockpit webui for playback
 
@@ -248,7 +248,7 @@ Prebuilt dashboards
 
 [Full stack example](https://github.com/elastic/examples/tree/master/Miscellaneous/docker/full_stack_example)
 
-elastalert can do alerting with dynamic thresholds and parent child relationships to avoid alerting storms
+elastalert can do alerting with dynamic threshholds and parent child relationships to avoid alerting storms
 
 Quick local example
 
@@ -269,7 +269,7 @@ Only need to run the setup the first time
 
 ### Principles Of Good Monitoring - Troy Lea
 
-Active - Monitoring system checks, You'll find out when next check occurs
+Active - Monitoring system checks, Youll find out when next check occurs
 
 Passive - Client sends info, alert is sent to monitoring system
 

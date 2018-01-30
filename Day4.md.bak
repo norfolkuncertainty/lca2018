@@ -20,7 +20,7 @@ host config driven by cloud-init
 
 benefits
 
-boot times, security footprint, immutable infrastructure, heading to unikernels
+boot times, security footprint, immutable infrastucture, heading to unikernels
 
 linuxkit
 
@@ -41,12 +41,12 @@ personalised data cannot be part of full page cache
 Edge side include
 
 * View mark up to see what is excluded in full page cache
-* ESI requests are run in series, not parallel
+* ESI requests are run in series, not parellel
 * negates benefits of using varnish
 
 ajax request
 
-* can be done in parallel
+* can be done in paralell
 * still have to run on each page load
 * There will be delayed load times for these components, not a good ux
 
@@ -54,12 +54,12 @@ Dont cache "hard to cache pages" - eg logged in, items in cart
 
 excluding specific parts from the cache is referred to as hole punching
 
-Cookie cutter approach  - JavaScript uses the content of a cookie to update the page
+Cookie cutter approach  - JavaScript uses the conent of a cookie to update the page
 
 How big can a cookie be?
 * 4k of data in 50 cookies per domain
 * Browsers differ in their cookie size limits
-* most new browsers are good, buts some older ones limit to 4k total
+* most new brosers are good, buts some older ones limit to 4k total
 
 Keep cookies small
 
@@ -75,15 +75,15 @@ Another technique that can be used is to vary the header to split cache based on
 
 There are different types of multimaster
 
-Do not use automatic promote unless you regularly test this in production, as you will end up with split brain/divergence
+Do not use automatic promote unless you regularaly test this in production, as you will end up with split brain/divergence
 
 Do not use dns based connection redirection, different clients will take different time to pick up the DNS change which could cause issues.
 
-Using a proxy in front like HAproxy is a better idea
+Using a proxy infront like HAproxy is a better idea
 
 script the repair process for divergence/split brain if possible.
 
-Multimaster suitable for some situations, like metrics gathering where these is less likely hood of two different servers updating the same item with different values
+Multimaster suitable for some situations, like metrics gathering where these is less likelyhood of two different servers updating the same item with different values
 
 In these cases divergence can be resolved when connectivity is restored
 
@@ -91,9 +91,9 @@ Not cool if there is the possibility of the same row being updated by two master
 
 Multimaster requires additional design considerations
 
-*Requirements analysis is crucial*
+*Requirements anaylsis is crucial*
 
-tightly coupled vs loosely coupled
+tightly coupled vs loosley coupled
 
 shared storage vs independent
 
@@ -101,9 +101,9 @@ sync vs async
 
 
 
-tightly coupled doesn't work very well with high latency
+tightly coupled doesnt work very well with high latency
 
-The application needs to be able to handle conflicts in loosely coupled systems
+The application needs to be able to handle conflicts in loosley coupled systems
 
 The application must be changed if it cant cope 
 
@@ -133,11 +133,11 @@ Python based
 
 scrapes logs and files, and runs commands
 
-Scans files for all tokens at once rather than repeatedly searching through files for each token.
+Scans files for all tokens at once rather than repeatdly searching through files for each token.
 
 Produces suggestions to fix known errors.
 
-Very keen to get community involvement and have people writing their own plugins
+Very keen to get community involvment and have people writing their own plugins
 
 [Insights readme](http://insights-core.readthedocs.io/en/latest/)
 

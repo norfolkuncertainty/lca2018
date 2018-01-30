@@ -25,9 +25,9 @@ Where do they come from?
 * Prototype and iterate
   * Fast feedback
 
-Invest mnemonic
+Invest pnemonic
 
-* Independent - No dependencies, can we release the by its self
+* Independant - No depedencies, can we release the by itsself
 * Negotiable -
 * Valuable - Does it add value
 * Estimable
@@ -48,7 +48,7 @@ Group dynamics
 
 The habitat
 
-* Obvious - stuff you know and understand
+* Obivious - stuff you know and understand
 * Complicated - need experts/analysis
 * Complex - May require a spike
 * Chaotic - Emergency
@@ -64,38 +64,38 @@ DO reinvent the wheel
 
 mgmtconfig 
 
-* parallel execution
+* paralelle execution
 * event driven
 * distributed topology
-* Reactive tool, sees files being delete and fixed them up immediately. file created before you can ls it
+* Reactive tool, sees files being delete and fixed them up immeditly. file created before you can ls it
 * safe 
 * powerful 
 * easy to reason with
-* Written in Golan
+* Written in golang
 
-Looks interesting, but will be hard to get people on board without the ecosystem to support it.
+Looks interesting, but will be hard to get people onboard without the ecosystem to support it.
 
 ## Manage all your tasks with TaskWarrior - Paul '@pjf' Fenwick
 
-Most task systems don't work for most people
+Most task systems dont work for most people
 
 [slides](https://github.com/pjf/talks/tree/master/taskwarrior)
 
 * Task warrior is open source , so you can add features
 * Command line based
 * Work flow agnostic
-* Steep learning curve
+* Steep learing curve
 * can add tags to tasks
 * Meta tags automatically added
-* Supports native+YEAR, +WEEK +TODAY  (is it due by x)
+* Supports natic+YEAR, +WEEK +TODAY  (is it due by x)
 * Negative tag searching 
-* Hierarchical - many tasks per project
+* Heirachical - many tasks per project
   * project:travel.stuff.thing
 * task numbers change as they get ticked off
 * Contexts can be used to split work/home, switch between projects
 * Taking notes on tasks is called annotation 
 * Can hide tasks until certain dates
-* You can Schedule tasks, and the urgency boosted after due date
+* You can Schedule tasks, and the urgency boosted after duedate
 * If you set an "until", the task will be deleted after the date
 * Can schedule relative to other tasks
 * Urgency score calculated by deadlines,tags etc
@@ -106,9 +106,9 @@ Most task systems don't work for most people
 
 Plugins
 
-* can annotate with URLs and it will open with browser
-* Bug warrior - access to GitHub,trello,jira,gmail
-  * Set tags on trello tasks based on board/who its assigned to
+* can annotate with urls and it will open with browser
+* Bug warrior - access to github,trello,jira,gmail
+  * Set tags on trello takss based on board/who its assigned to
 * Shell prompt integration
   * Pauls PS1 looked pretty awesome, keen to get a copy
 * burn down graph reporting
@@ -121,21 +121,21 @@ android app
 
 [Web version](http://inthe.am)
 
-Not written in Perl
+Not written in perl
 
 
 ## Love thy future self: making your systems ops-friendly - Matt Palmer
 
 Metrics are key
 
-Add gauges/metrics to everything so you can see what "magic" is happening
+Add guages/metrics to everything so you can see what "magic" is happening
 
 Instrumentation: The first four things to measure 
 
 * Incoming requests
 * Responses sent
 * Outgoing requests
-* Responses received
+* Responses recieved
 
 These will show you WHERE the issue is
 
@@ -154,10 +154,10 @@ Three log priorities that really matter
 
 Error requirements
 
-* Full stack trace on Errors
-* Add info, don't replace
-* Capture all relevant variables, environment etc
-* Structured log data, not huge lines of txt
+* Full stacktrace on Errors
+* Add info, dont replace
+* Capture all relevant variables, envrionment etc
+* Stuctured log data, not huge lines of txt
 
 INFO
 
@@ -167,36 +167,36 @@ DEBUG
 
 * printf debugging
 * Tag with module and method
-* Create unique id for each top level request
+* Create uniq id for each top level request
 * Late-bind the log data
 * Allow selective activation
 
 Make it Visibility
 * Instrument it
-* Log errors all the time
-* Allow run time collection of debug logs
+* Logerrors all the time
+* Allow runtime collection of debug logs
 
 ## Using "old skool" Free tools to easily publish API documentation - Alec Clews
 
 [slides](https://github.com/alecthegeek/doc-api-old-skool)
 
-People want to use your API
+People want to use yoiur API
 
 Make it useful, easy with great docs
 * Keep doco up to date
-* Users may not have English as a first language
-* Users are not familiar with your API and may not have the same technical skills as you
+* Users may not have English as a firsh language
+* Users are not familiar with your api and may not have the same technical skills as you
 * Use pictures and show real full code examples
-* Don't use complex English and don't make your doco busy
+* Dont use complex english and dont make your doco busy
 * Treat your documentation as code
 * Pandoc can generate pdfs from markdown files
-* Plantuml to generate a diagram, you can then reference this diagram in your markdown
+* Plantuml to generate a digram, you can then reference this diagram in your markdown
 * Uses sed to extract lines from the code, and then insert this into his doc
 
 ## Lightening talks
 ### To alt or not to alt
 
-Alt attribute allows you put a text description of the image
+Alt attribute allows you put a text desciption of the image
 
 For instance blind people using a screen reader will only hear "Image" where you have your pic. 
 
@@ -216,11 +216,11 @@ Can do everything Javascript can do
 
 ### How not to docker
 
-* Do not run privileged - Can own machine
-* Don't expose docker socket - Can mount host file-system
-* Don't use host network mode - container can have complete control over host network
-* Know where your code is From - don't use random images
-* Don't forget your host - Ensure host has a secure kernel
+* Do not run privelidged - Can own machine
+* Dont expose docker socket - Can mount host filesystem
+* Dont use host network mode - container can have complete control over host network
+* Know where your code is From - dont use random images
+* Dont forget your host - Ensure host has a secure kernel
 
 
 

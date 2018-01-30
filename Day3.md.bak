@@ -2,19 +2,19 @@
 ## Keynote: Six Years Later, or Hey, did you ever get the source code to that thing in your heart? - Karen Sandler
 Karen started by giving a review of her key note 6 years ago
 
-She was diagnosed with an enlarged heard, and needed to have a pace maker/defibrillator installed to shock her heart if it goes into an irregular rhythm.
+She was diagnosed with an enlarged heard, and needed to have a pace maker/defriblator instaled to shock her heart if it goes into an irregular rhythm.
 
 She wanted the software for her pacemaker, so she could review it for bugs/insecurities
 
 It turns out she was the first person to ask this question.
 
-She didn't end up getting source code after extreme measures to try and get it.
+She didnt end up getting source code after extreme measures to try and get it.
 
 Devices have closed software, but broadcasting remotely
 
-DC MA meant it was criminal to even try to test device
+DCMA meant it was criminal to even try to test device
 
-She described her defibrillator as a metaphor for all of the electronic devices (smart cars, smart coffee machines etc)
+She described her defribulator as a metephor for all of the electronic devices (smart cars, smart coffee machines etc)
 
 This helps people to understand the issue better.
 
@@ -24,51 +24,51 @@ She found it more effective talking about it when people knew she had a pacemake
 
 Karen has been accused of being a conspiracy theorist, just for asking questions.
 
-More and more vulnerabilities are being discovered for medical devices (insulin pumps, pacemakers)
+More and more vulnerabilites are beign discovered for medical devices (insulin pumps, pacemakers)
 
-Johnson and Johnson worked to fix vuln and communicate it out very well where it has been dealt with not so well by other vendors.
+Johnson and Johnson worked to fix vuln and communicate it out very well where it has been delt with not so well by other vendors.
 
-When Karen was pregnant her heart did what pregnant women's hearts do and started palpitating.
+When Karen was pregnant her heart did what pregnant womens heats do and started palpatating.
 
-The pacemaker/defibrillator noticed this and shocked her
+The pacemaker/defribulator noticed this and shocked her
 
-She was prescribed drugs to slow her heart so she wouldn't get shocked
+She wasprescribed drugs to slow her heart so she wouldnt get shocked
 
-such a small subset of pacemaker wearers are pregnant women that this was not anticipated.
+such a small subset of pacemaker wearers are pregrnant women that this was not anticipated.
 
-Which leads to the question, are pharma companies anticipating of all possible use cases
+Which leads to the question, are pharma companies anticipating of all possible usecases
 
 We need commercial entities to engage. All of our software should be free and open over time 
 
 Because of the shocks during pregnancy, her pacemaker started beeping every day at 1:10pm, the battery was getting low.
 
-Wireless was enabled by default and was unable to disable on all of the new pacemaker/defibrillators
+Wireless was enabled by default and was unable to disable on all of the new pacemaker/defribulators
 
-This was a major concert for Karen, as she has been threatened by people because of her outreachy work...wtf is wrong with people?
+This was a major concert for Karen, as she has been threatend by people beacuse of her outreachy work...wtf is wrong with people?
 
 Karen and a nurse called a number of vendors to check if they had a none wireless model
 
-They had a number of different responses, from Karen not being allowed to listen to the response to "Our device is hack proof"
+They had a number of different reponses, from Karen not being allowed to listen to the response to "Our device is hack proof"
 
 Luckily they managed to get the one device from Europe that used magnetic coupling
 
-Working with the small European company, so looks promising to get source code
+Working with the small european company, so looks promising to get sourcecode
 
-Everyone is using proprietary software whether they like it or not
+Everyone is using proprietary software wheather they like it or not
 
 ## How to run Kubernetes on your spare hardware at home, and save the world - Angus Lees
 
-PCs are fallible,  We use distributed software to get around this
+PCs are falible,  We use distributed software to get around this
 
 We have gone from clever hardware to clever software
 
-From 1 PC for many users to 1 user on many PCs
+From 1 pc for many users to 1 user on many pcs
 
 rpc microservices, hadoop, key/value store, object stores, immutable image based
 
 If its important, its not on 1 server
 
-centralize services vs federated protocols
+centrlise services vs federated protocols
 
 kubernetes can be described as "unix process as a service"
 
@@ -106,7 +106,7 @@ http://github.com/containos
 
 Another excellent presentation from Andrew about his adventures with UAV's
 
-Definitely worth a watch
+Definitley worth a watch
 
 Skyviper v2450 was mentioned as the cheapest open devices to get into UAVs wit
 
@@ -122,13 +122,13 @@ rewrites the tree after each write
 
 COW in XFS is data only
 
-uses deferred operations to improve crash recovery
+uses defered operations to improve crash recovery
 
 Allows replay of COW operations to ensure consistency
 
 Dave has been investigating adding subvolumes to xfs
 
-definition of a subvolume - can be snapshotted, flexible capacity, fully functioning filesystem
+definition of a subvolume - can be snapshotted, flexible capacity, fully functioning filesytem
 
 There have been a number of ideas on how these can be implemented
 
@@ -142,9 +142,9 @@ If the layers talk to each other, then this should not be an issue.
 
 The proposal that Dave is working on at the moment is image files on host filesystem
 
-This should resolve all of the above issues and also allowed shared cache between data on disk.
+This should resolve all of the above issues and also allowd shared cache between data on disk.
 
-Subvolume encryption would be trivial with this model too.
+Subvolume encrytion would be trivial with this model too.
 
 
 ## A Brief History of I/O - Benno Rice
