@@ -3,7 +3,6 @@
 ## Videos to watch later
 
 - [ ] [Intro to Kernel Hacking - finding things to work on.](https://youtu.be/-3HNeoFuSH0)
-- [ ] [Understanding git: even the scary parts - Anwesha Chatterjee](https://youtu.be/7xDbGwQaiTU)
 - [ ] [Learn by Contributing to Open Source - Joshua Simmons](https://youtu.be/uv7nDCpRnkk)
 - [ ] [Is the 370 the worst bus route in Sydney? - Katie Bell](https://youtu.be/O7jqU39wvKk)
 - [ ] [Lessons from three years of volunteering to teach students code - David Tulloh](https://youtu.be/FLD3Ui80M98)
@@ -29,5 +28,6 @@
 * [Puppet in the cloud - Jethro Carr](https://youtu.be/8kuezZhBk2w)
 * [User Session Recording for the Enterprise - Fraser Tweedale](https://youtu.be/zeemwpb30j0)
 * [Monitoring All the Things! on your Linux system with the Elastic Stack - Josh Rich](https://youtu.be/-Yoz7rtCk-s)
+* [Understanding git: even the scary parts - Anwesha Chatterjee](https://youtu.be/7xDbGwQaiTU)
 
 
